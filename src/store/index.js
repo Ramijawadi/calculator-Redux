@@ -12,7 +12,7 @@ const Reducer = (state = initState, action) => {
 
 if(action.type === "changeState"){
 
-return{...state, value: state.value + "updating"}
+return{...state, value: state.value + "state changed"}
 
 }
 
