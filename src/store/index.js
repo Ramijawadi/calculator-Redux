@@ -1,6 +1,6 @@
 import { createStore } from "redux";
 
-const initState = { value: 0 };
+const initState = { value: 0 , show: false};
 const Reducer = (state = initState, action) => {
   if (action.type === "increase") {
     return { ...state, value: state.value + 1 };
@@ -33,6 +33,13 @@ if(action.type ==="divis"){
 return{...state , value:state.value /2}
 
 }
+
+if(action.type === 'show'){
+
+return {...state,show: !state.show}
+
+}
+
   return state;
 };
 

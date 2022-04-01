@@ -15,13 +15,22 @@ h1{
 
 .counter {
  text-align: center;
+ margin-left: 150px;
 }
 
-.btn{
-height: 50px;
-width: 150px;  
-margin-left: 300px;
-margin-bottom: 15px;
+.btn {
+  height: 56px;
+  width: 164px;
+  margin-left: 179px;
+  margin-bottom: 15px;
+}
+.btnn{
+  height: 50px;
+  width: 350px;  
+  margin-left: 270px;
+  margin-bottom: 15px;
+
+
 
 }
 
